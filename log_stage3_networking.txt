@@ -1,0 +1,23 @@
+
+## Stage 3: Networking (TCP Client)
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s3_t1_tcp_client.py
+--- Checking scanme.nmap.org:80 ---
+[SUCCESS] Port 80 on scanme.nmap.org is OPEN (TCP SYN/ACK received).
+[INFO] Server Response: HTTP/1.1 200 OK
+
+
+## Stage 3: Networking (TCP Server Listener)
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s3_t2_tcp_server.py
+[*] Listening on 0.0.0.0:9999
+[*] Accepted connection from: 127.0.0.1:33688
+[*] Received: TEST MESSAGE FROM CLIENT
+
+--- Client Test (New Terminal) ---
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 -c 'import socket; s=socket.socket(socket.AF_INET, socket.SOCK_STREAM); s.connect(("127.0.0.1", 9999)); s.sendall(b"TEST MESSAGE FROM CLIENT\n"); print(s.recv(1024).decode()); s.close()'
+ACK: Message received successfully!
+
+^C
+[*] Server shutting down...
