@@ -18,3 +18,12 @@ Includes modules for packet capture, hashing, encryption, socket communication, 
 **Objective:** Develop foundational Python scripts for security tool prerequisites: cleaning and standardizing user input (String Normalization), and handling persistent data (File Read/Write) for reports and logs.
 
 [View Commands and Outputs](log_stage1_foundations.txt)
+
+---
+
+## Stage 2: Cryptography (Cipher Implementation)
+
+**Objective:** Developed scripts to implement both a classic cipher (Caesar) and a modern, secure cipher (Fernet/AES) to demonstrate secure data handling for sensitive information.
+
+[View Commands and Outputs](log_stage2_cryptography.txt)
+

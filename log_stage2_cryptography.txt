@@ -1,7 +1,6 @@
-
 ## Stage 2: Cryptography (Caesar Cipher)
 
-$ python3 s2_t1_caesar_cipher.py
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s2_t1_caesar_cipher.py
 Original Text: ALERT: Malicious traffic detected
 Key (Shift): 3
 Ciphertext: DOHUW: Pdolflrxv wudiilf ghwhfwhg
@@ -9,7 +8,7 @@ Decrypted Text: ALERT: Malicious traffic detected
 
 ## Stage 2: Cryptography (Fernet/AES)
 
-$ python3 s2_t2_fernet_crypto.py
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s2_t2_fernet_crypto.py
 Sensitive Data (Bytes): b'Target_IP=10.0.2.15; User_Creds=admin:P@ssw0rd1'
 Encryption Key (Base64): Zer6v4-3eedpWxEENAlmiGmmPzBkRVosDLPnprX3bno=
 Encrypted Token: gAAAAABpHxNCz6qpMxeKUvX1luQ8dqipsYikk4Nqobo1S7e9q05sLtHOF6bzbyf6WuLduVHOpbENetdvNEgTmst8fySikBZZrLHfjUgy9tHkhbGJJfEdEWR9xRO0BaHkIy62jLF984r3
