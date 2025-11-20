@@ -1,0 +1,11 @@
+## Stage 1: Foundations and File I/O
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s1_t1_normalize_string.py
+Original: Admin User #1 (Server)
+Normalized: admin_user__1__server_
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s1_t2_write_report.py
+Report successfully saved to incident_report.txt
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s1_t3_read_alert.py
+!!! CRITICAL ALERT: High Severity Incident Detected !!!
