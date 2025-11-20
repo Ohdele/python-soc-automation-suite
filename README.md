@@ -27,3 +27,10 @@ Includes modules for packet capture, hashing, encryption, socket communication, 
 
 [View Commands and Outputs](log_stage2_cryptography.txt)
 
+---
+
+## Stage 3: Networking & Socket Programming
+
+**Objective:** Built foundational network tools (TCP Client/Server) using Python's `socket` library to handle basic connections and data transfer, mimicking communication in a SOC environment.
+
+[View Commands and Outputs](log_stage3_networking.txt)
