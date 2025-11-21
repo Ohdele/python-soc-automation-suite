@@ -1,5 +1,7 @@
 ## Stage 5: System Utilities (Basic Command Execution)
 
+## TASK 1  
+
 dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s5_t1_cmd_executor.py
 [*] Executing command: ls -l
 [SUCCESS] Command executed.
@@ -27,3 +29,41 @@ total 76
 -rw-rw-r-- 1 dele dele  128 Nov 21 04:18 sanitized_summary.log
 -rw-rw-r-- 1 dele dele  105 Nov 21 04:15 target_config.ini
 --- End Output ---
+
+
+
+---
+
+## Stage 5: System Utilities (Advanced Command and OS Interaction)
+
+## TASK 2
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s5_t2_network_audit.py
+[*] Starting Network Interface Audit by running: ip a
+[SUCCESS] Command executed.
+
+--- Network Audit Output ---
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+          valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+          valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:bf:b9:a1 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+          valid_lft 80836sec preferred_lft 80836sec
+    inet6 fd17:625c:f037:2:78c:4227:5f15:1f99/64 scope global temporary dynamic 
+          valid_lft 86156sec preferred_lft 14156sec
+    inet6 fd17:625c:f037:2:a00:27ff:febf:b9a1/64 scope global dynamic mngtmpaddr 
+          valid_lft 86156sec preferred_lft 14156sec
+    inet6 fe80::a00:27ff:febf:b9a1/64 scope link 
+          valid_lft forever preferred_lft forever
+3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:38:02:9a brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.20/24 brd 192.168.10.255 scope global noprefixroute enp0s8
+          valid_lft forever preferred_lft forever
+    inet6 fe80::a00:27ff:fe38:29a/64 scope link 
+          valid_lft forever preferred_lft forever
+--- End Audit ---
+

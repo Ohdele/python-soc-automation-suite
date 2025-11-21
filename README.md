@@ -45,8 +45,13 @@ Includes modules for packet capture, hashing, encryption, socket communication, 
 
 ---
 
+---
+
 ## Stage 5: System Utilities and Automation
 
 **Objective:** Built scripts to interact directly with the underlying operating system (OS), execute shell commands securely, and automate OS-level information gathering, crucial for environment auditing and security scanning.
+
+* **Task 1 (Basic Command Execution):** Used the `subprocess` module to run a simple OS command (`ls -l`) and capture its standardized output.
+* **Task 2 (Advanced Command/Network Audit):** Executed a more complex command (`ip a`) to retrieve detailed network interface information, demonstrating system audit capabilities.
 
 [View Commands and Outputs](log_stage5_utilities.txt)
