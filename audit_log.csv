@@ -1,0 +1,8 @@
+timestamp,event_type,source_ip,user,status
+2025-11-21 08:00:01,login,192.168.1.10,admin,SUCCESS
+2025-11-21 08:00:15,login,172.16.0.5,guest,FAILURE
+2025-11-21 08:01:30,access,192.168.1.10,admin,SUCCESS
+2025-11-21 08:02:45,login,10.10.10.20,jdoe,SUCCESS
+2025-11-21 08:03:00,logout,192.168.1.10,admin,SUCCESS
+2025-11-21 08:04:10,login,172.16.0.5,guest,FAILURE
+2025-11-21 08:05:00,login,10.10.10.20,jdoe,SUCCESS

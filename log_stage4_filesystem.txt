@@ -2,8 +2,7 @@
 
 dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s4_t1_config_reader.py
 [SUCCESS] Configuration read and sanitized output written to 'sanitized_summary.log'.
-[VERIFY] Original Password: 
-[VERIFY] Original API Key: 
+
 
 dele@dele-VirtualBox:~/python-soc-automation-suite$ cat sanitized_summary.log
 --- Configuration Summary ---
@@ -12,3 +11,15 @@ Username: admin
 Password: [REDACTED]
 API Key: [REDACTED]
 --- End Summary ---
+
+---
+
+## Stage 4: File System (CSV Log Parser)
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s4_t2_log_parser.py
+[*] Starting analysis of 'audit_log.csv'...
+  [FOUND] Success: 192.168.1.10 logged in at 2025-11-21 08:00:01
+  [FOUND] Success: 10.10.10.20 logged in at 2025-11-21 08:02:45
+  [FOUND] Success: 10.10.10.20 logged in at 2025-11-21 08:05:00
+[*] Analysis complete.
+[RESULT] Total successful logins counted: 3
