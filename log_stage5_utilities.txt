@@ -1,0 +1,29 @@
+## Stage 5: System Utilities (Basic Command Execution)
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s5_t1_cmd_executor.py
+[*] Executing command: ls -l
+[SUCCESS] Command executed.
+
+--- Command Output ---
+total 76
+-rw-rw-r-- 1 dele dele  408 Nov 21 04:49 audit_log.csv
+-rw-rw-r-- 1 dele dele  145 Nov 20 10:52 incident_report.txt
+-rw-rw-r-- 1 dele dele  461 Nov 20 11:12 log_stage1_foundations.txt
+-rw-rw-r-- 1 dele dele  775 Nov 20 13:23 log_stage2_cryptography.txt
+-rw-rw-r-- 1 dele dele  858 Nov 20 14:38 log_stage3_networking.txt
+-rw-rw-r-- 1 dele dele  864 Nov 21 05:11 log_stage4_filesystem.txt
+-rw-rw-r-- 1 dele dele    0 Nov 21 05:34 log_stage5_utilities.txt
+-rw-rw-r-- 1 dele dele 1769 Nov 21 04:43 README.md
+-rw-rw-r-- 1 dele dele  364 Nov 20 10:48 s1_t1_normalize_string.py
+-rw-rw-r-- 1 dele dele  622 Nov 20 10:51 s1_t2_write_report.py
+-rw-rw-r-- 1 dele dele  756 Nov 20 10:54 s1_t3_read_alert.py
+-rw-rw-r-- 1 dele dele  918 Nov 20 12:00 s2_t1_caesar_cipher.py
+-rw-rw-r-- 1 dele dele  702 Nov 20 12:18 s2_t2_fernet_crypto.py
+-rw-rw-r-- 1 dele dele 1310 Nov 20 14:02 s3_t1_tcp_client.py
+-rw-rw-r-- 1 dele dele 1068 Nov 20 14:05 s3_t2_tcp_server.py
+-rw-rw-r-- 1 dele dele 1520 Nov 21 04:16 s4_t1_config_reader.py
+-rw-rw-r-- 1 dele dele 1149 Nov 21 04:50 s4_t2_log_parser.py
+-rw-rw-r-- 1 dele dele 1150 Nov 21 05:35 s5_t1_cmd_executor.py
+-rw-rw-r-- 1 dele dele  128 Nov 21 04:18 sanitized_summary.log
+-rw-rw-r-- 1 dele dele  105 Nov 21 04:15 target_config.ini
+--- End Output ---

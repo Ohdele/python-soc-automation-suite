@@ -42,3 +42,11 @@ Includes modules for packet capture, hashing, encryption, socket communication, 
 **Objective:** Built scripts to automate file management, including reading structured configuration files, sanitizing sensitive data (REDACTION), and managing log outputs, crucial for professional SOC tooling.
 
 [View Commands and Outputs](log_stage4_filesystem.txt)
+
+---
+
+## Stage 5: System Utilities and Automation
+
+**Objective:** Built scripts to interact directly with the underlying operating system (OS), execute shell commands securely, and automate OS-level information gathering, crucial for environment auditing and security scanning.
+
+[View Commands and Outputs](log_stage5_utilities.txt)
