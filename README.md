@@ -34,3 +34,11 @@ Includes modules for packet capture, hashing, encryption, socket communication, 
 **Objective:** Built foundational network tools (TCP Client/Server) using Python's `socket` library to handle basic connections and data transfer, mimicking communication in a SOC environment.
 
 [View Commands and Outputs](log_stage3_networking.txt)
+
+---
+
+## Stage 4: File System and Data Manipulation
+
+**Objective:** Built scripts to automate file management, including reading structured configuration files, sanitizing sensitive data (REDACTION), and managing log outputs, crucial for professional SOC tooling.
+
+[View Commands and Outputs](log_stage4_filesystem.txt)

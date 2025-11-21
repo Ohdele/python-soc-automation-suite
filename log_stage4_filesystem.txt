@@ -1,0 +1,14 @@
+## Stage 4: File System (Config Reader and Sanitizer)
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ python3 s4_t1_config_reader.py
+[SUCCESS] Configuration read and sanitized output written to 'sanitized_summary.log'.
+[VERIFY] Original Password: 
+[VERIFY] Original API Key: 
+
+dele@dele-VirtualBox:~/python-soc-automation-suite$ cat sanitized_summary.log
+--- Configuration Summary ---
+Target IP: 10.0.2.15
+Username: admin
+Password: [REDACTED]
+API Key: [REDACTED]
+--- End Summary ---
